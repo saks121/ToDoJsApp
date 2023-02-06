@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To Do JS App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<div class="main-cont" style="opacity:1">
+    <div id="topBox">
+        <div id="content" style="color:white;font-size:70px"><b>Tasks</b><span>List</span></div>
+        <div id="link">
+            <img src="https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/funky-button-add-icon_zkH3j3Ud_thumb.jpg" id="img">
+            <a href="Addcard.html" style="position: absolute;left: 120px;color: white;">Add new Item</a>
+        </div>
+    </div>
+
+    <div id="mainBox">
+        <p>No Items in the todo list</p>
+    </div>
+</div>
+
+<div id="addBox">
+        <p id="task">Add new Task</p>
+        <input type="text" name="textBox" value="" id="textBox" placeholder="Enter text">
+        <button id="add" onClick="create()">Add</button>
+        <button id="delete"> <a href="index.html" style="color:white;"/> Close</button>
+
+</div>
+
+</body>
+
+</html>
